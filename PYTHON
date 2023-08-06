@@ -1,0 +1,13 @@
+#accpt n names and search name.
+n=int(input("Enter Limit"))
+a=[]
+for i in range(0,n):
+    name=input("Enter Student Name")
+    a.append(name)
+print("Student Names=",a)
+
+x=input("Enter Name To Search")
+if x in a:
+    print("Name is Found")
+else:
+    print("name is not found")
