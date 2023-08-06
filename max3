@@ -1,0 +1,19 @@
+#accept three number and find maximum between them.
+a=int(input("Enter First Number"))
+b=int(input("Enter Second Number"))
+c=int(input("Enter Third Number"))
+
+if a>b and a>c:
+    print("First Number is Greter:")
+if b>a and b>c:
+    print("Second Number is Greter")
+if c>a and c>b:
+    print("Third Number is Greter")
+else:
+    print("Number are Same")
+
+
+
+
+    
+
