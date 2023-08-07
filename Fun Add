@@ -1,0 +1,9 @@
+#WRITE FUNCTION TO CALCULATE ADDITION OF TWO NUMBERS.
+def add(a,b):
+    c=a+b                   #defination
+    print("Addition=",c)
+
+a=int(input("Enter Number First")) #variable
+b=int(input("Enter Number Second"))#declaration
+
+add(a,b)         #calling
